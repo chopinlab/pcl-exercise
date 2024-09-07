@@ -1,0 +1,62 @@
+[0.019s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
+[0.057s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.269s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.334s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.845s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.854s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.855s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.032s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.040s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.049s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.212s] -- Found Qhull version 8.0.2
+[1.390s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.555s] -- looking for PCL_COMMON
+[1.556s] -- looking for PCL_KDTREE
+[1.557s] -- looking for PCL_OCTREE
+[1.557s] -- looking for PCL_SEARCH
+[1.558s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.559s] -- looking for PCL_FILTERS
+[1.559s] -- looking for PCL_2D
+[1.559s] -- looking for PCL_GEOMETRY
+[1.559s] -- looking for PCL_IO
+[1.560s] -- looking for PCL_FEATURES
+[1.561s] -- looking for PCL_ML
+[1.563s] -- looking for PCL_SEGMENTATION
+[1.563s] -- looking for PCL_VISUALIZATION
+[1.563s] -- looking for PCL_SURFACE
+[1.563s] -- looking for PCL_REGISTRATION
+[1.565s] -- looking for PCL_KEYPOINTS
+[1.565s] -- looking for PCL_TRACKING
+[1.566s] -- looking for PCL_RECOGNITION
+[1.566s] -- looking for PCL_STEREO
+[1.567s] -- looking for PCL_APPS
+[1.568s] -- looking for PCL_IN_HAND_SCANNER
+[1.568s] -- looking for PCL_MODELER
+[1.569s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.570s] -- looking for PCL_OUTOFCORE
+[1.570s] -- looking for PCL_PEOPLE
+[1.663s] -- Configuring done
+[1.767s] -- Generating done
+[1.773s] -- Build files have been written to: /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing
+[1.822s] [35m[1mConsolidate compiler generated dependencies of target plane_cloud[0m
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target pcd_import[0m
+[1.841s] [ 16%] [32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o[0m
+[1.859s] [ 33%] [32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o[0m
+[1.874s] [ 66%] Built target pcd_import
+[5.501s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[5.501s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:23:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+[5.501s]    23 |         std::[01;31m[Kfilesystem[m[K::path current_path    = std::filesystem::current_path();
+[5.501s]       |              [01;31m[K^~~~~~~~~~[m[K
+[5.501s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:24:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+[5.501s]    24 |     std::[01;31m[Kfilesystem[m[K::path point_cloud_dir = current_path/"src/point_cloud_processing/point_clouds/";
+[5.501s]       |          [01;31m[K^~~~~~~~~~[m[K
+[5.516s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:25:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_dir[m[K’ was not declared in this scope
+[5.517s]    25 |     std::string pcd_file_path             = [01;31m[Kpoint_cloud_dir[m[K/pcd_file_name;
+[5.517s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.898s] gmake[2]: *** [CMakeFiles/circular_cloud.dir/build.make:76: CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o] Error 1
+[5.899s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/circular_cloud.dir/all] Error 2
+[5.899s] gmake[1]: *** Waiting for unfinished jobs....
+[6.766s] [ 83%] [32m[1mLinking CXX executable plane_cloud[0m
+[7.324s] [ 83%] Built target plane_cloud
+[7.326s] gmake: *** [Makefile:146: all] Error 2
+[7.329s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4

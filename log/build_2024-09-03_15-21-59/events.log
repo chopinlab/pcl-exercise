@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000850] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.001475] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.014696] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.016702] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[0.018039] (point_cloud_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', '--', '-j4', '-l4'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.057876] (point_cloud_processing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.102320] (-) TimerEvent: {}
+[0.206175] (-) TimerEvent: {}
+[0.269593] (point_cloud_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.307124] (-) TimerEvent: {}
+[0.335407] (point_cloud_processing) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.408191] (-) TimerEvent: {}
+[0.509102] (-) TimerEvent: {}
+[0.609883] (-) TimerEvent: {}
+[0.710457] (-) TimerEvent: {}
+[0.811437] (-) TimerEvent: {}
+[0.846544] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.855870] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.856092] (point_cloud_processing) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.911532] (-) TimerEvent: {}
+[1.012463] (-) TimerEvent: {}
+[1.033115] (point_cloud_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.041601] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.050163] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.113567] (-) TimerEvent: {}
+[1.213463] (point_cloud_processing) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.213623] (-) TimerEvent: {}
+[1.313914] (-) TimerEvent: {}
+[1.391137] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.415013] (-) TimerEvent: {}
+[1.515785] (-) TimerEvent: {}
+[1.556113] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.556704] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.557939] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.558493] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.559104] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.559801] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.560121] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.560829] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.560940] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.561704] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.561978] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.564284] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.564562] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.564634] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.564693] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.566034] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.566131] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.567285] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.567917] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.568017] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.569147] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.569757] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.570244] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.570880] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.571235] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.637986] (-) TimerEvent: {}
+[1.663917] (point_cloud_processing) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.738909] (-) TimerEvent: {}
+[1.768253] (point_cloud_processing) StdoutLine: {'line': b'-- Generating done\n'}
+[1.774508] (point_cloud_processing) StdoutLine: {'line': b'-- Build files have been written to: /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing\n'}
+[1.823780] (point_cloud_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plane_cloud\x1b[0m\n'}
+[1.833281] (point_cloud_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcd_import\x1b[0m\n'}
+[1.842418] (point_cloud_processing) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o\x1b[0m\n'}
+[1.842813] (-) TimerEvent: {}
+[1.860367] (point_cloud_processing) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o\x1b[0m\n'}
+[1.875907] (point_cloud_processing) StdoutLine: {'line': b'[ 66%] Built target pcd_import\n'}
+[1.944655] (-) TimerEvent: {}
+[2.047465] (-) TimerEvent: {}
+[2.150849] (-) TimerEvent: {}
+[2.253645] (-) TimerEvent: {}
+[2.358645] (-) TimerEvent: {}
+[2.468024] (-) TimerEvent: {}
+[2.576861] (-) TimerEvent: {}
+[2.679602] (-) TimerEvent: {}
+[2.782918] (-) TimerEvent: {}
+[2.886785] (-) TimerEvent: {}
+[2.988391] (-) TimerEvent: {}
+[3.090388] (-) TimerEvent: {}
+[3.198067] (-) TimerEvent: {}
+[3.303730] (-) TimerEvent: {}
+[3.405494] (-) TimerEvent: {}
+[3.508572] (-) TimerEvent: {}
+[3.625557] (-) TimerEvent: {}
+[3.747801] (-) TimerEvent: {}
+[3.856776] (-) TimerEvent: {}
+[3.968494] (-) TimerEvent: {}
+[4.075453] (-) TimerEvent: {}
+[4.190794] (-) TimerEvent: {}
+[4.296419] (-) TimerEvent: {}
+[4.401763] (-) TimerEvent: {}
+[4.502204] (-) TimerEvent: {}
+[4.602972] (-) TimerEvent: {}
+[4.704132] (-) TimerEvent: {}
+[4.805189] (-) TimerEvent: {}
+[4.907159] (-) TimerEvent: {}
+[5.009754] (-) TimerEvent: {}
+[5.111413] (-) TimerEvent: {}
+[5.212594] (-) TimerEvent: {}
+[5.315611] (-) TimerEvent: {}
+[5.417041] (-) TimerEvent: {}
+[5.501603] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.502280] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:23:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.502650] (point_cloud_processing) StderrLine: {'line': b'   23 |         std::\x1b[01;31m\x1b[Kfilesystem\x1b[m\x1b[K::path current_path    = std::filesystem::current_path();\n'}
+[5.502726] (point_cloud_processing) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.502788] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.502848] (point_cloud_processing) StderrLine: {'line': b'   24 |     std::\x1b[01;31m\x1b[Kfilesystem\x1b[m\x1b[K::path point_cloud_dir = current_path/"src/point_cloud_processing/point_clouds/";\n'}
+[5.502907] (point_cloud_processing) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.516848] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/2_circular_cloud.cpp:25:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoint_cloud_dir\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.517396] (-) TimerEvent: {}
+[5.517894] (point_cloud_processing) StderrLine: {'line': b'   25 |     std::string pcd_file_path             = \x1b[01;31m\x1b[Kpoint_cloud_dir\x1b[m\x1b[K/pcd_file_name;\n'}
+[5.518397] (point_cloud_processing) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.617860] (-) TimerEvent: {}
+[5.720187] (-) TimerEvent: {}
+[5.820974] (-) TimerEvent: {}
+[5.899574] (point_cloud_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/circular_cloud.dir/build.make:76: CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o] Error 1\n'}
+[5.900154] (point_cloud_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/circular_cloud.dir/all] Error 2\n'}
+[5.900389] (point_cloud_processing) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.922388] (-) TimerEvent: {}
+[6.022831] (-) TimerEvent: {}
+[6.123702] (-) TimerEvent: {}
+[6.224551] (-) TimerEvent: {}
+[6.325425] (-) TimerEvent: {}
+[6.426531] (-) TimerEvent: {}
+[6.526949] (-) TimerEvent: {}
+[6.628097] (-) TimerEvent: {}
+[6.729453] (-) TimerEvent: {}
+[6.767695] (point_cloud_processing) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable plane_cloud\x1b[0m\n'}
+[6.829977] (-) TimerEvent: {}
+[6.930767] (-) TimerEvent: {}
+[7.032581] (-) TimerEvent: {}
+[7.134673] (-) TimerEvent: {}
+[7.296579] (-) TimerEvent: {}
+[7.325604] (point_cloud_processing) StdoutLine: {'line': b'[ 83%] Built target plane_cloud\n'}
+[7.327440] (point_cloud_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.330349] (point_cloud_processing) CommandEnded: {'returncode': 2}
+[7.397261] (-) TimerEvent: {}
+[7.413244] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 2}
+[7.426968] (-) EventReactorShutdown: {}

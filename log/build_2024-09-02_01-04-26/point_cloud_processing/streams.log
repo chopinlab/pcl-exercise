@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
+[0.050s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.199s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.236s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.569s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.577s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.578s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.746s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.754s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.761s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.901s] -- Found Qhull version 8.0.2
+[1.063s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.205s] -- looking for PCL_COMMON
+[1.206s] -- looking for PCL_KDTREE
+[1.207s] -- looking for PCL_OCTREE
+[1.207s] -- looking for PCL_SEARCH
+[1.208s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.208s] -- looking for PCL_FILTERS
+[1.209s] -- looking for PCL_2D
+[1.209s] -- looking for PCL_GEOMETRY
+[1.210s] -- looking for PCL_IO
+[1.211s] -- looking for PCL_FEATURES
+[1.212s] -- looking for PCL_ML
+[1.212s] -- looking for PCL_SEGMENTATION
+[1.213s] -- looking for PCL_VISUALIZATION
+[1.213s] -- looking for PCL_SURFACE
+[1.214s] -- looking for PCL_REGISTRATION
+[1.214s] -- looking for PCL_KEYPOINTS
+[1.215s] -- looking for PCL_TRACKING
+[1.216s] -- looking for PCL_RECOGNITION
+[1.216s] -- looking for PCL_STEREO
+[1.217s] -- looking for PCL_APPS
+[1.218s] -- looking for PCL_IN_HAND_SCANNER
+[1.218s] -- looking for PCL_MODELER
+[1.219s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.219s] -- looking for PCL_OUTOFCORE
+[1.220s] -- looking for PCL_PEOPLE
+[1.297s] -- Configuring done
+[1.300s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[1.300s]   Cannot find source file:
+[1.300s] 
+[1.300s]     src/point_cloud_processing/src/0_table_scene.cpp
+[1.300s] 
+[1.300s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.300s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.300s] 
+[1.300s] [0m
+[1.301s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[1.301s]   No SOURCES given to target: pcd_import
+[1.301s] 
+[1.301s] [0m
+[1.301s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.311s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.316s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4

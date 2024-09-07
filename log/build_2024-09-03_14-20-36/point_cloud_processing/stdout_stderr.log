@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target plane_cloud[0m
+[ 50%] Built target pcd_import
+[ 75%] [32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o[0m
+[01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::PointCloud[m[K’?
+    9 |     pcl:[01;31m[KPointCloud[m[K<pcl::PointXYZ> cloud;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kpcl::PointCloud[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:3[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:71:36:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::PointCloud[m[K’ declared here
+   71 |   template <typename PointT> class [01;36m[KPointCloud[m[K;
+      |                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    9 |     pcl:PointCloud<pcl::PointXYZ[01;31m[K>[m[K cloud;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+    9 |     pcl:PointCloud<pcl::PointXYZ> [01;31m[Kcloud[m[K;
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kpcl[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+    9 |     [01;35m[Kpcl[m[K:PointCloud<pcl::PointXYZ> cloud;
+      |     [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/plane_cloud.dir/build.make:76: CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plane_cloud.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

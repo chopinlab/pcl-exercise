@@ -1,0 +1,818 @@
+[0.000000] (-) TimerEvent: {}
+[0.000451] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.000535] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000690] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.014240] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.030366] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.033329] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[0.033637] (point_cloud_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', '--', '-j4', '-l4'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.042228] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.044244] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/chovy/workspace-udemy/pcl-exercise/src/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.076621] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.096854] (-) TimerEvent: {}
+[0.111035] (point_cloud_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target circular_cloud\x1b[0m\n'}
+[0.138402] (point_cloud_processing) StdoutLine: {'line': b'[ 33%] Built target pcd_import\n'}
+[0.149331] (point_cloud_processing) StdoutLine: {'line': b'[ 66%] Built target plane_cloud\n'}
+[0.151406] (point_cloud_processing) StdoutLine: {'line': b'[100%] Built target circular_cloud\n'}
+[0.169522] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[0.197913] (-) TimerEvent: {}
+[0.242885] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'install'}
+[0.258805] (point_cloud_processing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.271787] (point_cloud_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.274783] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/lib/point_cloud_processing/pcd_import\n'}
+[0.277032] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud\n'}
+[0.279276] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud\n'}
+[0.281314] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing\n'}
+[0.281427] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing\n'}
+[0.281538] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh\n'}
+[0.281603] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv\n'}
+[0.281661] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh\n'}
+[0.281718] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv\n'}
+[0.282285] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash\n'}
+[0.282663] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh\n'}
+[0.282770] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh\n'}
+[0.282985] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv\n'}
+[0.283079] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/package.dsv\n'}
+[0.283140] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing\n'}
+[0.283197] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake\n'}
+[0.283253] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake\n'}
+[0.283310] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/package.xml\n'}
+[0.288418] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[0.298490] (-) TimerEvent: {}
+[0.344373] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399790] (-) TimerEvent: {}
+[0.400128] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 0}
+[0.499954] (-) TimerEvent: {}
+[0.524367] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.524792] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.524864] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.524922] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.524976] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.525048] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.525118] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.525174] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.525249] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.525315] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.525371] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.525424] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.532228] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.555388] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.601518] (-) TimerEvent: {}
+[0.703284] (-) TimerEvent: {}
+[0.712873] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.789607] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.817597] (-) TimerEvent: {}
+[0.834395] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.922310] (-) TimerEvent: {}
+[1.023722] (-) TimerEvent: {}
+[1.138983] (-) TimerEvent: {}
+[1.172905] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.210216] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.221305] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.237341] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.241074] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.241422] (-) TimerEvent: {}
+[1.242366] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.248235] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.267906] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.318263] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.329190] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.340419] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.343382] (-) TimerEvent: {}
+[1.346461] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.346643] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.355225] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.355473] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.361853] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.362094] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.369877] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.370154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.376168] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.377393] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.381782] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.446699] (-) TimerEvent: {}
+[1.506166] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.510243] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.511526] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.533708] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.545668] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.547629] (-) TimerEvent: {}
+[1.553890] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.580004] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.631003] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.639244] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.647699] (-) TimerEvent: {}
+[1.656306] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.707956] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.714797] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.715868] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.737187] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.744668] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.748266] (-) TimerEvent: {}
+[1.765775] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.818337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.823895] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.824247] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.824761] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.826491] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.828991] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.842189] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.844492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.849236] (-) TimerEvent: {}
+[1.849978] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.850143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.850212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.857796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.857991] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.949610] (-) TimerEvent: {}
+[2.004154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.017185] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.038869] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.049973] (-) TimerEvent: {}
+[2.088537] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.100205] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.118175] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.150234] (-) TimerEvent: {}
+[2.166230] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.167444] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.168211] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.168788] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.180154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[2.182698] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.250477] (-) TimerEvent: {}
+[2.258021] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.270448] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.287681] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.321531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.350592] (-) TimerEvent: {}
+[2.352157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.437126] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.451402] (-) TimerEvent: {}
+[2.476766] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.551888] (-) TimerEvent: {}
+[2.565391] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.571908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.652590] (-) TimerEvent: {}
+[2.723458] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.753913] (-) TimerEvent: {}
+[2.754736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.808180] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.826870] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.857780] (-) TimerEvent: {}
+[2.906564] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.947532] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.960443] (-) TimerEvent: {}
+[3.054182] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.062872] (-) TimerEvent: {}
+[3.115110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.118139] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo\n'}
+[3.134501] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[3.135830] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[3.135870] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[3.163683] (-) TimerEvent: {}
+[3.217936] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[3.218315] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[3.218525] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[3.218720] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[3.273600] (-) TimerEvent: {}
+[3.378456] (-) TimerEvent: {}
+[3.479244] (-) TimerEvent: {}
+[3.580193] (-) TimerEvent: {}
+[3.700737] (-) TimerEvent: {}
+[3.810816] (-) TimerEvent: {}
+[3.912366] (-) TimerEvent: {}
+[4.015598] (-) TimerEvent: {}
+[4.117849] (-) TimerEvent: {}
+[4.219453] (-) TimerEvent: {}
+[4.321589] (-) TimerEvent: {}
+[4.422554] (-) TimerEvent: {}
+[4.526747] (-) TimerEvent: {}
+[4.638781] (-) TimerEvent: {}
+[4.744580] (-) TimerEvent: {}
+[4.846733] (-) TimerEvent: {}
+[4.950281] (-) TimerEvent: {}
+[5.052490] (-) TimerEvent: {}
+[5.160236] (-) TimerEvent: {}
+[5.265946] (-) TimerEvent: {}
+[5.371924] (-) TimerEvent: {}
+[5.473475] (-) TimerEvent: {}
+[5.581527] (-) TimerEvent: {}
+[5.691480] (-) TimerEvent: {}
+[5.793198] (-) TimerEvent: {}
+[5.896490] (-) TimerEvent: {}
+[6.010462] (-) TimerEvent: {}
+[6.138435] (-) TimerEvent: {}
+[6.255953] (-) TimerEvent: {}
+[6.387968] (-) TimerEvent: {}
+[6.585162] (-) TimerEvent: {}
+[6.686870] (-) TimerEvent: {}
+[6.793231] (-) TimerEvent: {}
+[6.907078] (-) TimerEvent: {}
+[7.040598] (-) TimerEvent: {}
+[7.146167] (-) TimerEvent: {}
+[7.249904] (-) TimerEvent: {}
+[7.407653] (-) TimerEvent: {}
+[7.516419] (-) TimerEvent: {}
+[7.638606] (-) TimerEvent: {}
+[7.804556] (-) TimerEvent: {}
+[8.265301] (-) TimerEvent: {}
+[8.367311] (-) TimerEvent: {}
+[8.475428] (-) TimerEvent: {}
+[8.576701] (-) TimerEvent: {}
+[8.685700] (-) TimerEvent: {}
+[8.804820] (-) TimerEvent: {}
+[8.914746] (-) TimerEvent: {}
+[9.015912] (-) TimerEvent: {}
+[9.126927] (-) TimerEvent: {}
+[9.233472] (-) TimerEvent: {}
+[9.343922] (-) TimerEvent: {}
+[9.451691] (-) TimerEvent: {}
+[9.552475] (-) TimerEvent: {}
+[9.654509] (-) TimerEvent: {}
+[9.757725] (-) TimerEvent: {}
+[9.871364] (-) TimerEvent: {}
+[9.979592] (-) TimerEvent: {}
+[10.089299] (-) TimerEvent: {}
+[10.219385] (-) TimerEvent: {}
+[10.325382] (-) TimerEvent: {}
+[10.428802] (-) TimerEvent: {}
+[10.530522] (-) TimerEvent: {}
+[10.635775] (-) TimerEvent: {}
+[10.760208] (-) TimerEvent: {}
+[10.865462] (-) TimerEvent: {}
+[10.973370] (-) TimerEvent: {}
+[11.094967] (-) TimerEvent: {}
+[11.203515] (-) TimerEvent: {}
+[11.304586] (-) TimerEvent: {}
+[11.411559] (-) TimerEvent: {}
+[11.512463] (-) TimerEvent: {}
+[11.621672] (-) TimerEvent: {}
+[11.725626] (-) TimerEvent: {}
+[11.832944] (-) TimerEvent: {}
+[11.934043] (-) TimerEvent: {}
+[12.039585] (-) TimerEvent: {}
+[12.141326] (-) TimerEvent: {}
+[12.264442] (-) TimerEvent: {}
+[12.365924] (-) TimerEvent: {}
+[12.476809] (-) TimerEvent: {}
+[12.593482] (-) TimerEvent: {}
+[12.695741] (-) TimerEvent: {}
+[12.802153] (-) TimerEvent: {}
+[12.904519] (-) TimerEvent: {}
+[13.007277] (-) TimerEvent: {}
+[13.114436] (-) TimerEvent: {}
+[13.230782] (-) TimerEvent: {}
+[13.342793] (-) TimerEvent: {}
+[13.463576] (-) TimerEvent: {}
+[13.667454] (-) TimerEvent: {}
+[13.772268] (-) TimerEvent: {}
+[13.913625] (-) TimerEvent: {}
+[14.020329] (-) TimerEvent: {}
+[14.126356] (-) TimerEvent: {}
+[14.270855] (-) TimerEvent: {}
+[14.385009] (-) TimerEvent: {}
+[14.496581] (-) TimerEvent: {}
+[14.599390] (-) TimerEvent: {}
+[14.700819] (-) TimerEvent: {}
+[14.810360] (-) TimerEvent: {}
+[14.917158] (-) TimerEvent: {}
+[15.018601] (-) TimerEvent: {}
+[15.122879] (-) TimerEvent: {}
+[15.236936] (-) TimerEvent: {}
+[15.352411] (-) TimerEvent: {}
+[15.453274] (-) TimerEvent: {}
+[15.560949] (-) TimerEvent: {}
+[15.668297] (-) TimerEvent: {}
+[15.778099] (-) TimerEvent: {}
+[15.880736] (-) TimerEvent: {}
+[15.986855] (-) TimerEvent: {}
+[16.138063] (-) TimerEvent: {}
+[16.245837] (-) TimerEvent: {}
+[16.357706] (-) TimerEvent: {}
+[16.464826] (-) TimerEvent: {}
+[16.574273] (-) TimerEvent: {}
+[16.677292] (-) TimerEvent: {}
+[16.790953] (-) TimerEvent: {}
+[16.898735] (-) TimerEvent: {}
+[17.004076] (-) TimerEvent: {}
+[17.124279] (-) TimerEvent: {}
+[17.235862] (-) TimerEvent: {}
+[17.347489] (-) TimerEvent: {}
+[17.453009] (-) TimerEvent: {}
+[17.560716] (-) TimerEvent: {}
+[17.665575] (-) TimerEvent: {}
+[17.766474] (-) TimerEvent: {}
+[17.868742] (-) TimerEvent: {}
+[17.989405] (-) TimerEvent: {}
+[18.100774] (-) TimerEvent: {}
+[18.208636] (-) TimerEvent: {}
+[18.310449] (-) TimerEvent: {}
+[18.415619] (-) TimerEvent: {}
+[18.536477] (-) TimerEvent: {}
+[18.705994] (-) TimerEvent: {}
+[18.820730] (-) TimerEvent: {}
+[18.925714] (-) TimerEvent: {}
+[19.033227] (-) TimerEvent: {}
+[19.134775] (-) TimerEvent: {}
+[19.243306] (-) TimerEvent: {}
+[19.344526] (-) TimerEvent: {}
+[19.452152] (-) TimerEvent: {}
+[19.566785] (-) TimerEvent: {}
+[19.686964] (-) TimerEvent: {}
+[19.798597] (-) TimerEvent: {}
+[19.900881] (-) TimerEvent: {}
+[20.028773] (-) TimerEvent: {}
+[20.140279] (-) TimerEvent: {}
+[20.247281] (-) TimerEvent: {}
+[20.348275] (-) TimerEvent: {}
+[20.452469] (-) TimerEvent: {}
+[20.567108] (-) TimerEvent: {}
+[20.673493] (-) TimerEvent: {}
+[20.775409] (-) TimerEvent: {}
+[20.889287] (-) TimerEvent: {}
+[20.992862] (-) TimerEvent: {}
+[21.101631] (-) TimerEvent: {}
+[21.213902] (-) TimerEvent: {}
+[21.317688] (-) TimerEvent: {}
+[21.418578] (-) TimerEvent: {}
+[21.521333] (-) TimerEvent: {}
+[21.623356] (-) TimerEvent: {}
+[21.725475] (-) TimerEvent: {}
+[21.827185] (-) TimerEvent: {}
+[21.931614] (-) TimerEvent: {}
+[22.033237] (-) TimerEvent: {}
+[22.134780] (-) TimerEvent: {}
+[22.237366] (-) TimerEvent: {}
+[22.350135] (-) TimerEvent: {}
+[22.454695] (-) TimerEvent: {}
+[22.559600] (-) TimerEvent: {}
+[22.662591] (-) TimerEvent: {}
+[22.765732] (-) TimerEvent: {}
+[22.866674] (-) TimerEvent: {}
+[22.971245] (-) TimerEvent: {}
+[23.076312] (-) TimerEvent: {}
+[23.180611] (-) TimerEvent: {}
+[23.285717] (-) TimerEvent: {}
+[23.397461] (-) TimerEvent: {}
+[23.501654] (-) TimerEvent: {}
+[23.605168] (-) TimerEvent: {}
+[23.718527] (-) TimerEvent: {}
+[23.820546] (-) TimerEvent: {}
+[23.922449] (-) TimerEvent: {}
+[24.027346] (-) TimerEvent: {}
+[24.129756] (-) TimerEvent: {}
+[24.231853] (-) TimerEvent: {}
+[24.337470] (-) TimerEvent: {}
+[24.439102] (-) TimerEvent: {}
+[24.550285] (-) TimerEvent: {}
+[24.652458] (-) TimerEvent: {}
+[24.765450] (-) TimerEvent: {}
+[24.869324] (-) TimerEvent: {}
+[24.973551] (-) TimerEvent: {}
+[25.077573] (-) TimerEvent: {}
+[25.191244] (-) TimerEvent: {}
+[25.295453] (-) TimerEvent: {}
+[25.396384] (-) TimerEvent: {}
+[25.506360] (-) TimerEvent: {}
+[25.607244] (-) TimerEvent: {}
+[25.708867] (-) TimerEvent: {}
+[25.810898] (-) TimerEvent: {}
+[25.912328] (-) TimerEvent: {}
+[26.014179] (-) TimerEvent: {}
+[26.115358] (-) TimerEvent: {}
+[26.216596] (-) TimerEvent: {}
+[26.319773] (-) TimerEvent: {}
+[26.420971] (-) TimerEvent: {}
+[26.522705] (-) TimerEvent: {}
+[26.623375] (-) TimerEvent: {}
+[26.724523] (-) TimerEvent: {}
+[26.825815] (-) TimerEvent: {}
+[26.926871] (-) TimerEvent: {}
+[27.027909] (-) TimerEvent: {}
+[27.128621] (-) TimerEvent: {}
+[27.229840] (-) TimerEvent: {}
+[27.331394] (-) TimerEvent: {}
+[27.433516] (-) TimerEvent: {}
+[27.534714] (-) TimerEvent: {}
+[27.636843] (-) TimerEvent: {}
+[27.737725] (-) TimerEvent: {}
+[27.841375] (-) TimerEvent: {}
+[27.942931] (-) TimerEvent: {}
+[28.043708] (-) TimerEvent: {}
+[28.144326] (-) TimerEvent: {}
+[28.250155] (-) TimerEvent: {}
+[28.351382] (-) TimerEvent: {}
+[28.456123] (-) TimerEvent: {}
+[28.557039] (-) TimerEvent: {}
+[28.658169] (-) TimerEvent: {}
+[28.758757] (-) TimerEvent: {}
+[28.859782] (-) TimerEvent: {}
+[28.960526] (-) TimerEvent: {}
+[29.061858] (-) TimerEvent: {}
+[29.162530] (-) TimerEvent: {}
+[29.263940] (-) TimerEvent: {}
+[29.365271] (-) TimerEvent: {}
+[29.466143] (-) TimerEvent: {}
+[29.567237] (-) TimerEvent: {}
+[29.668221] (-) TimerEvent: {}
+[29.768976] (-) TimerEvent: {}
+[29.870893] (-) TimerEvent: {}
+[29.972618] (-) TimerEvent: {}
+[30.073823] (-) TimerEvent: {}
+[30.186489] (-) TimerEvent: {}
+[30.340774] (-) TimerEvent: {}
+[30.495424] (-) TimerEvent: {}
+[30.636493] (-) TimerEvent: {}
+[30.749458] (-) TimerEvent: {}
+[30.850945] (-) TimerEvent: {}
+[30.952784] (-) TimerEvent: {}
+[31.066494] (-) TimerEvent: {}
+[31.168942] (-) TimerEvent: {}
+[31.270422] (-) TimerEvent: {}
+[31.371554] (-) TimerEvent: {}
+[31.473365] (-) TimerEvent: {}
+[31.574214] (-) TimerEvent: {}
+[31.681331] (-) TimerEvent: {}
+[31.782626] (-) TimerEvent: {}
+[31.883697] (-) TimerEvent: {}
+[31.985209] (-) TimerEvent: {}
+[32.086949] (-) TimerEvent: {}
+[32.188048] (-) TimerEvent: {}
+[32.289498] (-) TimerEvent: {}
+[32.390212] (-) TimerEvent: {}
+[32.492332] (-) TimerEvent: {}
+[32.593565] (-) TimerEvent: {}
+[32.694771] (-) TimerEvent: {}
+[32.798208] (-) TimerEvent: {}
+[32.898703] (-) TimerEvent: {}
+[32.999528] (-) TimerEvent: {}
+[33.102856] (-) TimerEvent: {}
+[33.206607] (-) TimerEvent: {}
+[33.309545] (-) TimerEvent: {}
+[33.412557] (-) TimerEvent: {}
+[33.514309] (-) TimerEvent: {}
+[33.615547] (-) TimerEvent: {}
+[33.716517] (-) TimerEvent: {}
+[33.817377] (-) TimerEvent: {}
+[33.919456] (-) TimerEvent: {}
+[34.031945] (-) TimerEvent: {}
+[34.133509] (-) TimerEvent: {}
+[34.239353] (-) TimerEvent: {}
+[34.347189] (-) TimerEvent: {}
+[34.449339] (-) TimerEvent: {}
+[34.565361] (-) TimerEvent: {}
+[34.686297] (-) TimerEvent: {}
+[34.788200] (-) TimerEvent: {}
+[34.897188] (-) TimerEvent: {}
+[35.006237] (-) TimerEvent: {}
+[35.107148] (-) TimerEvent: {}
+[35.210549] (-) TimerEvent: {}
+[35.311847] (-) TimerEvent: {}
+[35.413764] (-) TimerEvent: {}
+[35.514738] (-) TimerEvent: {}
+[35.616032] (-) TimerEvent: {}
+[35.716555] (-) TimerEvent: {}
+[35.887120] (-) TimerEvent: {}
+[35.988403] (-) TimerEvent: {}
+[36.089536] (-) TimerEvent: {}
+[36.190361] (-) TimerEvent: {}
+[36.293035] (-) TimerEvent: {}
+[36.395012] (-) TimerEvent: {}
+[36.499339] (-) TimerEvent: {}
+[36.600418] (-) TimerEvent: {}
+[36.701830] (-) TimerEvent: {}
+[36.754382] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[36.831575] (-) TimerEvent: {}
+[36.832407] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[36.933236] (-) TimerEvent: {}
+[37.034906] (-) TimerEvent: {}
+[37.136936] (-) TimerEvent: {}
+[37.243281] (-) TimerEvent: {}
+[37.370695] (-) TimerEvent: {}
+[37.436522] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacles\n'}
+[37.447435] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacle1\n'}
+[37.470965] (-) TimerEvent: {}
+[37.571650] (-) TimerEvent: {}
+[37.673158] (-) TimerEvent: {}
+[37.774210] (-) TimerEvent: {}
+[37.875721] (-) TimerEvent: {}
+[37.976736] (-) TimerEvent: {}
+[38.077901] (-) TimerEvent: {}
+[38.179305] (-) TimerEvent: {}
+[38.280104] (-) TimerEvent: {}
+[38.380942] (-) TimerEvent: {}
+[38.482291] (-) TimerEvent: {}
+[38.582891] (-) TimerEvent: {}
+[38.683673] (-) TimerEvent: {}
+[38.784562] (-) TimerEvent: {}
+[38.885219] (-) TimerEvent: {}
+[38.986350] (-) TimerEvent: {}
+[39.087498] (-) TimerEvent: {}
+[39.188495] (-) TimerEvent: {}
+[39.291738] (-) TimerEvent: {}
+[39.392573] (-) TimerEvent: {}
+[39.493971] (-) TimerEvent: {}
+[39.596027] (-) TimerEvent: {}
+[39.696978] (-) TimerEvent: {}
+[39.798051] (-) TimerEvent: {}
+[39.899028] (-) TimerEvent: {}
+[39.999986] (-) TimerEvent: {}
+[40.100956] (-) TimerEvent: {}
+[40.202106] (-) TimerEvent: {}
+[40.302990] (-) TimerEvent: {}
+[40.404439] (-) TimerEvent: {}
+[40.505711] (-) TimerEvent: {}
+[40.606493] (-) TimerEvent: {}
+[40.707428] (-) TimerEvent: {}
+[40.808192] (-) TimerEvent: {}
+[40.909214] (-) TimerEvent: {}
+[41.009982] (-) TimerEvent: {}
+[41.111769] (-) TimerEvent: {}
+[41.212726] (-) TimerEvent: {}
+[41.313724] (-) TimerEvent: {}
+[41.414600] (-) TimerEvent: {}
+[41.515694] (-) TimerEvent: {}
+[41.616854] (-) TimerEvent: {}
+[41.718210] (-) TimerEvent: {}
+[41.818971] (-) TimerEvent: {}
+[41.919774] (-) TimerEvent: {}
+[42.020685] (-) TimerEvent: {}
+[42.121617] (-) TimerEvent: {}
+[42.222403] (-) TimerEvent: {}
+[42.323406] (-) TimerEvent: {}
+[42.424278] (-) TimerEvent: {}
+[42.525167] (-) TimerEvent: {}
+[42.625895] (-) TimerEvent: {}
+[42.726624] (-) TimerEvent: {}
+[42.827327] (-) TimerEvent: {}
+[42.928195] (-) TimerEvent: {}
+[42.958810] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[43.028310] (-) TimerEvent: {}
+[43.128767] (-) TimerEvent: {}
+[43.229624] (-) TimerEvent: {}
+[43.312453] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle2\n'}
+[43.329899] (-) TimerEvent: {}
+[43.432291] (-) TimerEvent: {}
+[43.538350] (-) TimerEvent: {}
+[43.639321] (-) TimerEvent: {}
+[43.741360] (-) TimerEvent: {}
+[43.842436] (-) TimerEvent: {}
+[43.942903] (-) TimerEvent: {}
+[44.043709] (-) TimerEvent: {}
+[44.144780] (-) TimerEvent: {}
+[44.246389] (-) TimerEvent: {}
+[44.347118] (-) TimerEvent: {}
+[44.447723] (-) TimerEvent: {}
+[44.548262] (-) TimerEvent: {}
+[44.648739] (-) TimerEvent: {}
+[44.749215] (-) TimerEvent: {}
+[44.849711] (-) TimerEvent: {}
+[44.951398] (-) TimerEvent: {}
+[45.051897] (-) TimerEvent: {}
+[45.152553] (-) TimerEvent: {}
+[45.253149] (-) TimerEvent: {}
+[45.354382] (-) TimerEvent: {}
+[45.454885] (-) TimerEvent: {}
+[45.555906] (-) TimerEvent: {}
+[45.656679] (-) TimerEvent: {}
+[45.757727] (-) TimerEvent: {}
+[45.858208] (-) TimerEvent: {}
+[45.958721] (-) TimerEvent: {}
+[46.059389] (-) TimerEvent: {}
+[46.159918] (-) TimerEvent: {}
+[46.261102] (-) TimerEvent: {}
+[46.361654] (-) TimerEvent: {}
+[46.462640] (-) TimerEvent: {}
+[46.564649] (-) TimerEvent: {}
+[46.665681] (-) TimerEvent: {}
+[46.766617] (-) TimerEvent: {}
+[46.867308] (-) TimerEvent: {}
+[46.967829] (-) TimerEvent: {}
+[47.069523] (-) TimerEvent: {}
+[47.173572] (-) TimerEvent: {}
+[47.277656] (-) TimerEvent: {}
+[47.381963] (-) TimerEvent: {}
+[47.484597] (-) TimerEvent: {}
+[47.589923] (-) TimerEvent: {}
+[47.693424] (-) TimerEvent: {}
+[47.795243] (-) TimerEvent: {}
+[47.898229] (-) TimerEvent: {}
+[48.000336] (-) TimerEvent: {}
+[48.100773] (-) TimerEvent: {}
+[48.202443] (-) TimerEvent: {}
+[48.303679] (-) TimerEvent: {}
+[48.404629] (-) TimerEvent: {}
+[48.506608] (-) TimerEvent: {}
+[48.608519] (-) TimerEvent: {}
+[48.716397] (-) TimerEvent: {}
+[48.821892] (-) TimerEvent: {}
+[48.924055] (-) TimerEvent: {}
+[49.029192] (-) TimerEvent: {}
+[49.133337] (-) TimerEvent: {}
+[49.235853] (-) TimerEvent: {}
+[49.337421] (-) TimerEvent: {}
+[49.437900] (-) TimerEvent: {}
+[49.538618] (-) TimerEvent: {}
+[49.639424] (-) TimerEvent: {}
+[49.740304] (-) TimerEvent: {}
+[49.841479] (-) TimerEvent: {}
+[49.942217] (-) TimerEvent: {}
+[50.042721] (-) TimerEvent: {}
+[50.143251] (-) TimerEvent: {}
+[50.243724] (-) TimerEvent: {}
+[50.344404] (-) TimerEvent: {}
+[50.444970] (-) TimerEvent: {}
+[50.545793] (-) TimerEvent: {}
+[50.647406] (-) TimerEvent: {}
+[50.748490] (-) TimerEvent: {}
+[50.850575] (-) TimerEvent: {}
+[50.952312] (-) TimerEvent: {}
+[51.053927] (-) TimerEvent: {}
+[51.156278] (-) TimerEvent: {}
+[51.257615] (-) TimerEvent: {}
+[51.359018] (-) TimerEvent: {}
+[51.459890] (-) TimerEvent: {}
+[51.566181] (-) TimerEvent: {}
+[51.667436] (-) TimerEvent: {}
+[51.770408] (-) TimerEvent: {}
+[51.871022] (-) TimerEvent: {}
+[51.971761] (-) TimerEvent: {}
+[52.074809] (-) TimerEvent: {}
+[52.175870] (-) TimerEvent: {}
+[52.276557] (-) TimerEvent: {}
+[52.380998] (-) TimerEvent: {}
+[52.492672] (-) TimerEvent: {}
+[52.594486] (-) TimerEvent: {}
+[52.694987] (-) TimerEvent: {}
+[52.795749] (-) TimerEvent: {}
+[52.896340] (-) TimerEvent: {}
+[52.997199] (-) TimerEvent: {}
+[53.098878] (-) TimerEvent: {}
+[53.199744] (-) TimerEvent: {}
+[53.300279] (-) TimerEvent: {}
+[53.400933] (-) TimerEvent: {}
+[53.502368] (-) TimerEvent: {}
+[53.602766] (-) TimerEvent: {}
+[53.703255] (-) TimerEvent: {}
+[53.804146] (-) TimerEvent: {}
+[53.912490] (-) TimerEvent: {}
+[54.018050] (-) TimerEvent: {}
+[54.119366] (-) TimerEvent: {}
+[54.220069] (-) TimerEvent: {}
+[54.329616] (-) TimerEvent: {}
+[54.440919] (-) TimerEvent: {}
+[54.541915] (-) TimerEvent: {}
+[54.645707] (-) TimerEvent: {}
+[54.747851] (-) TimerEvent: {}
+[54.854266] (-) TimerEvent: {}
+[54.954690] (-) TimerEvent: {}
+[55.055591] (-) TimerEvent: {}
+[55.157394] (-) TimerEvent: {}
+[55.258604] (-) TimerEvent: {}
+[55.359399] (-) TimerEvent: {}
+[55.460446] (-) TimerEvent: {}
+[55.561044] (-) TimerEvent: {}
+[55.661867] (-) TimerEvent: {}
+[55.762637] (-) TimerEvent: {}
+[55.864251] (-) TimerEvent: {}
+[55.965777] (-) TimerEvent: {}
+[56.067838] (-) TimerEvent: {}
+[56.168824] (-) TimerEvent: {}
+[56.269535] (-) TimerEvent: {}
+[56.372894] (-) TimerEvent: {}
+[56.474360] (-) TimerEvent: {}
+[56.574879] (-) TimerEvent: {}
+[56.675644] (-) TimerEvent: {}
+[56.776520] (-) TimerEvent: {}
+[56.906380] (-) TimerEvent: {}
+[57.026673] (-) TimerEvent: {}
+[57.140826] (-) TimerEvent: {}
+[57.266929] (-) TimerEvent: {}
+[57.367836] (-) TimerEvent: {}
+[57.381151] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[57.476938] (-) TimerEvent: {}
+[57.577228] (-) TimerEvent: {}
+[57.678290] (-) TimerEvent: {}
+[57.780163] (-) TimerEvent: {}
+[57.882399] (-) TimerEvent: {}
+[57.984077] (-) TimerEvent: {}
+[58.085226] (-) TimerEvent: {}
+[58.189664] (-) TimerEvent: {}
+[58.260355] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[58.292403] (-) TimerEvent: {}
+[58.396112] (-) TimerEvent: {}
+[58.525213] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[58.726495] (-) TimerEvent: {}
+[58.774477] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[58.788820] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[58.818263] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[58.818585] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[58.822306] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[58.823746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[58.824398] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[58.825421] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[58.825936] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[58.826534] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[58.826784] (-) TimerEvent: {}
+[58.827323] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[58.827937] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[58.828570] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[58.828843] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[58.829680] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[58.829994] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[58.830333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[58.830809] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[58.831695] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[58.832521] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[58.833749] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[58.834498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[58.835455] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[58.836412] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[58.837493] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[58.839414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[58.840199] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[58.841457] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[58.842325] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[58.843629] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[58.844433] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[58.845276] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[58.846537] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[58.847059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[58.847802] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[58.848480] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[58.849136] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[58.849944] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[58.850329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[58.851103] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[58.851826] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[58.852701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[58.853130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[58.854087] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[58.854575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[58.855228] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[58.855846] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[58.856509] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[58.857449] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[58.857869] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[58.858459] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[58.859259] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[58.859957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[58.860682] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[58.861634] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[58.862060] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[58.862681] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[58.863743] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[58.864727] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[58.866489] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[58.867386] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[58.867751] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[58.869667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[58.870463] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[58.870903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[58.871644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[58.872315] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[58.872851] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[58.873307] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[58.874147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[58.874555] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[58.874851] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[58.875475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[58.875969] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[58.877002] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[58.877528] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[58.878251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[58.878664] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[58.879157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[58.879864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[58.880436] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[58.880890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[58.881412] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[58.881866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[58.882409] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[58.882796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/include/\n'}
+[58.883385] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[58.883838] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[58.886774] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[58.888552] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[58.893769] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[58.894931] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[58.895546] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[58.896229] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[58.897216] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[58.897960] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[58.898779] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[58.899531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[58.900147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[58.901343] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[58.901949] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[58.902365] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[58.903379] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[58.904042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[58.904550] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[58.913464] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[58.932380] (-) TimerEvent: {}
+[59.036243] (-) TimerEvent: {}
+[59.140414] (-) TimerEvent: {}
+[59.244500] (-) TimerEvent: {}
+[59.275855] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[59.299912] (-) EventReactorShutdown: {}

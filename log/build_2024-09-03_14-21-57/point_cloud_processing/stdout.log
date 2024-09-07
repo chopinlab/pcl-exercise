@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target plane_cloud[0m
+[ 75%] Built target pcd_import
+[ 75%] [32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o[0m

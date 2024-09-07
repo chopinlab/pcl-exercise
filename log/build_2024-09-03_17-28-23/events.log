@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.000359] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000387] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.026888] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.040210] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.046270] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[0.081046] (point_cloud_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', '--', '-j4', '-l4'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy/pcl-exercise/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.087872] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.092416] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/chovy/workspace-udemy/pcl-exercise/src/turtlebot3_gazebo', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 49453 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy/pcl-exercise/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e00bc8d6-3d56-4eeb-a6b3-bdea1025ce9d.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2b35616469.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'waffle'), ('SSH_CONNECTION', '10.0.2.2 49453 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing')]), 'shell': False}
+[0.100056] (-) TimerEvent: {}
+[0.201477] (-) TimerEvent: {}
+[0.292401] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.295351] (turtlebot3_gazebo) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.295517] (turtlebot3_gazebo) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.295623] (turtlebot3_gazebo) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.295687] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[0.295819] (turtlebot3_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.306553] (-) TimerEvent: {}
+[0.307393] (turtlebot3_gazebo) StderrLine: {'line': b'  of the following names:\n'}
+[0.307514] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[0.307580] (turtlebot3_gazebo) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.307641] (turtlebot3_gazebo) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.307701] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[0.307777] (turtlebot3_gazebo) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.307834] (turtlebot3_gazebo) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.307890] (turtlebot3_gazebo) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.307946] (turtlebot3_gazebo) StderrLine: {'line': b'  installed.\n'}
+[0.308001] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[0.308057] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.308120] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.308197] (turtlebot3_gazebo) StdoutLine: {'line': b'See also "/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[0.312494] (turtlebot3_gazebo) CommandEnded: {'returncode': 1}
+[0.367655] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 1}
+[0.413756] (-) TimerEvent: {}
+[0.435518] (point_cloud_processing) StdoutLine: {'line': b'[ 33%] Built target pcd_import\n'}
+[0.515029] (-) TimerEvent: {}
+[0.519591] (point_cloud_processing) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o\x1b[0m\n'}
+[0.624216] (-) TimerEvent: {}
+[0.726992] (-) TimerEvent: {}
+[0.830500] (-) TimerEvent: {}
+[0.932268] (-) TimerEvent: {}
+[1.038944] (-) TimerEvent: {}
+[1.140619] (-) TimerEvent: {}
+[1.243467] (-) TimerEvent: {}
+[1.345334] (-) TimerEvent: {}
+[1.453235] (-) TimerEvent: {}
+[1.558629] (-) TimerEvent: {}
+[1.663147] (-) TimerEvent: {}
+[1.766001] (-) TimerEvent: {}
+[1.896917] (-) TimerEvent: {}
+[2.001663] (-) TimerEvent: {}
+[2.104953] (-) TimerEvent: {}
+[2.275522] (-) TimerEvent: {}
+[2.384532] (-) TimerEvent: {}
+[2.505308] (-) TimerEvent: {}
+[2.688116] (-) TimerEvent: {}
+[2.789456] (-) TimerEvent: {}
+[2.891909] (-) TimerEvent: {}
+[3.004021] (-) TimerEvent: {}
+[3.117369] (-) TimerEvent: {}
+[3.219362] (-) TimerEvent: {}
+[3.329432] (-) TimerEvent: {}
+[3.433056] (-) TimerEvent: {}
+[3.549917] (-) TimerEvent: {}
+[3.654480] (-) TimerEvent: {}
+[3.756433] (-) TimerEvent: {}
+[3.867318] (-) TimerEvent: {}
+[3.989785] (-) TimerEvent: {}
+[4.107036] (-) TimerEvent: {}
+[4.214681] (-) TimerEvent: {}
+[4.315821] (-) TimerEvent: {}
+[4.433759] (-) TimerEvent: {}
+[4.535717] (-) TimerEvent: {}
+[4.652360] (-) TimerEvent: {}
+[4.769288] (-) TimerEvent: {}
+[4.873278] (-) TimerEvent: {}
+[4.978344] (-) TimerEvent: {}
+[5.100521] (-) TimerEvent: {}
+[5.206433] (-) TimerEvent: {}
+[5.307590] (-) TimerEvent: {}
+[5.421021] (-) TimerEvent: {}
+[5.528355] (-) TimerEvent: {}
+[5.629534] (-) TimerEvent: {}
+[5.731511] (-) TimerEvent: {}
+[5.836208] (-) TimerEvent: {}
+[5.945070] (-) TimerEvent: {}
+[6.050097] (-) TimerEvent: {}
+[6.154653] (-) TimerEvent: {}
+[6.279546] (-) TimerEvent: {}
+[6.384117] (-) TimerEvent: {}
+[6.503697] (-) TimerEvent: {}
+[6.614855] (-) TimerEvent: {}
+[6.717319] (-) TimerEvent: {}
+[6.821603] (-) TimerEvent: {}
+[6.929562] (-) TimerEvent: {}
+[7.041909] (-) TimerEvent: {}
+[7.145232] (-) TimerEvent: {}
+[7.248210] (-) TimerEvent: {}
+[7.334054] (point_cloud_processing) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable circular_cloud\x1b[0m\n'}
+[7.360037] (-) TimerEvent: {}
+[7.482278] (-) TimerEvent: {}
+[7.587315] (-) TimerEvent: {}
+[7.697301] (-) TimerEvent: {}
+[7.808352] (-) TimerEvent: {}
+[7.909023] (-) TimerEvent: {}
+[8.016308] (-) TimerEvent: {}
+[8.118204] (-) TimerEvent: {}
+[8.254380] (-) TimerEvent: {}
+[8.293319] (point_cloud_processing) StdoutLine: {'line': b'[ 66%] Built target circular_cloud\n'}
+[8.355401] (-) TimerEvent: {}
+[8.381202] (point_cloud_processing) StdoutLine: {'line': b'[100%] Built target plane_cloud\n'}
+[8.435420] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 'SIGINT'}
+[8.461628] (-) TimerEvent: {}
+[8.469229] (-) EventReactorShutdown: {}

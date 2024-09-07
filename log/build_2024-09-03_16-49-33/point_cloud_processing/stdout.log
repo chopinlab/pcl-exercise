@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target circular_cloud[0m
+[ 33%] Built target plane_cloud
+[ 66%] Built target pcd_import
+[100%] Built target circular_cloud

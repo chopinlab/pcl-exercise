@@ -1,0 +1,33 @@
+[0.024s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo': /usr/bin/cmake /home/chovy/workspace-udemy/pcl-exercise/src/turtlebot3_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.224s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.363s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.526s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.537s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.549s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.550s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.550s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.550s]   CMake did not find one.
+[0.550s] 
+[0.551s]   Could not find a package configuration file provided by "catkin" with any
+[0.552s]   of the following names:
+[0.552s] 
+[0.552s]     catkinConfig.cmake
+[0.552s]     catkin-config.cmake
+[0.552s] 
+[0.552s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.552s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.552s]   provides a separate development package or SDK, be sure it has been
+[0.552s]   installed.
+[0.552s] 
+[0.552s] [0m
+[0.552s] -- Configuring incomplete, errors occurred!
+[0.552s] See also "/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.554s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo' returned '1': /usr/bin/cmake /home/chovy/workspace-udemy/pcl-exercise/src/turtlebot3_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo

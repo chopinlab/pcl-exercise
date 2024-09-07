@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target pcd_import[0m
+[0.111s] [100%] Built target pcd_import
+[0.126s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
+[0.193s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing
+[0.203s] -- Install configuration: ""
+[0.203s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[0.203s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[0.204s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[0.204s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[0.205s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[0.205s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[0.205s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[0.205s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[0.205s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[0.205s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[0.205s] -- Installing: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[0.206s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[0.206s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[0.206s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[0.206s] -- Up-to-date: /home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[0.212s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing

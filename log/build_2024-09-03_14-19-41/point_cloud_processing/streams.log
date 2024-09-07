@@ -1,0 +1,75 @@
+[0.020s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
+[0.096s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.344s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.405s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.976s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.987s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.988s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.164s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.175s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.182s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.355s] -- Found Qhull version 8.0.2
+[1.530s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.708s] -- looking for PCL_COMMON
+[1.709s] -- looking for PCL_KDTREE
+[1.710s] -- looking for PCL_OCTREE
+[1.710s] -- looking for PCL_SEARCH
+[1.711s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.711s] -- looking for PCL_FILTERS
+[1.712s] -- looking for PCL_2D
+[1.713s] -- looking for PCL_GEOMETRY
+[1.713s] -- looking for PCL_IO
+[1.714s] -- looking for PCL_FEATURES
+[1.714s] -- looking for PCL_ML
+[1.715s] -- looking for PCL_SEGMENTATION
+[1.716s] -- looking for PCL_VISUALIZATION
+[1.717s] -- looking for PCL_SURFACE
+[1.717s] -- looking for PCL_REGISTRATION
+[1.718s] -- looking for PCL_KEYPOINTS
+[1.719s] -- looking for PCL_TRACKING
+[1.719s] -- looking for PCL_RECOGNITION
+[1.720s] -- looking for PCL_STEREO
+[1.721s] -- looking for PCL_APPS
+[1.722s] -- looking for PCL_IN_HAND_SCANNER
+[1.722s] -- looking for PCL_MODELER
+[1.723s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.724s] -- looking for PCL_OUTOFCORE
+[1.724s] -- looking for PCL_PEOPLE
+[1.807s] -- Configuring done
+[1.905s] -- Generating done
+[1.908s] -- Build files have been written to: /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target pcd_import[0m
+[1.967s] [ 25%] [32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o[0m
+[1.993s] [ 75%] Built target pcd_import
+[5.657s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[5.657s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:7:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::PointCloud[m[K’?
+[5.657s]     7 |     pcl:[01;31m[KPointCloud[m[K<pcl::PointXYZ> cloud;
+[5.657s]       |         [01;31m[K^~~~~~~~~~[m[K
+[5.657s]       |         [32m[Kpcl::PointCloud[m[K
+[5.657s] In file included from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:44[m[K,
+[5.657s]                  from [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:3[m[K:
+[5.657s] [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:71:36:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::PointCloud[m[K’ declared here
+[5.657s]    71 |   template <typename PointT> class [01;36m[KPointCloud[m[K;
+[5.657s]       |                                    [01;36m[K^~~~~~~~~~[m[K
+[5.658s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:7:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.658s]     7 |     pcl:PointCloud<pcl::PointXYZ[01;31m[K>[m[K cloud;
+[5.658s]       |                                 [01;31m[K^[m[K
+[5.664s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:7:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+[5.664s]     7 |     pcl:PointCloud<pcl::PointXYZ> [01;31m[Kcloud[m[K;
+[5.665s]       |                                   [01;31m[K^~~~~[m[K
+[5.665s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:15:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+[5.666s]    15 |         std::[01;31m[Kfilesystem[m[K::path current_path    = std::filesystem::current_path();
+[5.666s]       |              [01;31m[K^~~~~~~~~~[m[K
+[5.667s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:16:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+[5.667s]    16 |     std::[01;31m[Kfilesystem[m[K::path point_cloud_dir = current_path/"src/point_cloud_processing/point_clouds/";
+[5.667s]       |          [01;31m[K^~~~~~~~~~[m[K
+[5.678s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:17:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_dir[m[K’ was not declared in this scope
+[5.679s]    17 |     std::string pcd_file_path             = [01;31m[Kpoint_cloud_dir[m[K/pcd_file_name;
+[5.679s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.680s] [01m[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:7:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kpcl[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[5.680s]     7 |     [01;35m[Kpcl[m[K:PointCloud<pcl::PointXYZ> cloud;
+[5.680s]       |     [01;35m[K^~~[m[K
+[5.957s] gmake[2]: *** [CMakeFiles/plane_cloud.dir/build.make:76: CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o] Error 1
+[5.958s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plane_cloud.dir/all] Error 2
+[5.958s] gmake: *** [Makefile:146: all] Error 2
+[5.963s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4

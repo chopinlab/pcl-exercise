@@ -1,0 +1,21 @@
+[0.022s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo': /usr/bin/cmake /home/chovy/workspace-udemy/pcl-exercise/src/turtlebot3_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo
+[0.054s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.054s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.054s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.055s]   CMake did not find one.
+[0.055s] 
+[0.055s]   Could not find a package configuration file provided by "catkin" with any
+[0.055s]   of the following names:
+[0.055s] 
+[0.055s]     catkinConfig.cmake
+[0.055s]     catkin-config.cmake
+[0.055s] 
+[0.055s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.055s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.055s]   provides a separate development package or SDK, be sure it has been
+[0.055s]   installed.
+[0.056s] 
+[0.056s] [0m
+[0.056s] -- Configuring incomplete, errors occurred!
+[0.056s] See also "/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.057s] Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/turtlebot3_gazebo' returned '1': /usr/bin/cmake /home/chovy/workspace-udemy/pcl-exercise/src/turtlebot3_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chovy/workspace-udemy/pcl-exercise/install/turtlebot3_gazebo

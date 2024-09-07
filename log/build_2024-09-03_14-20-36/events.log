@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000687] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.000766] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.012892] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.015218] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[0.015394] (point_cloud_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', '--', '-j4', '-l4'], 'cwd': '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'chovy'), ('SSH_CLIENT', '10.0.2.2 57407 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/chovy'), ('OLDPWD', '/home/chovy/workspace-udemy/pcl-exercise/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a7b901e9-09b2-4572-9395-84814f5650f1.sock'), ('ZSH', '/home/chovy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.5.4'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install:/home/chovy/workspace-udemy/pcl-exercise/install:/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chovy'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/chovy'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chovy/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ee614b0707.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('LC_TERMINAL', 'iTerm2'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.2.2 57407 10.0.2.15 22'), ('ZDOTDIR', '/home/chovy'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chovy/workspace-udemy/pcl-exercise/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.074428] (point_cloud_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plane_cloud\x1b[0m\n'}
+[0.093343] (point_cloud_processing) StdoutLine: {'line': b'[ 50%] Built target pcd_import\n'}
+[0.101596] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o\x1b[0m\n'}
+[0.101761] (-) TimerEvent: {}
+[0.215198] (-) TimerEvent: {}
+[0.322610] (-) TimerEvent: {}
+[0.458849] (-) TimerEvent: {}
+[0.560516] (-) TimerEvent: {}
+[0.662351] (-) TimerEvent: {}
+[0.763213] (-) TimerEvent: {}
+[0.864022] (-) TimerEvent: {}
+[0.966506] (-) TimerEvent: {}
+[1.091981] (-) TimerEvent: {}
+[1.201283] (-) TimerEvent: {}
+[1.333482] (-) TimerEvent: {}
+[1.475088] (-) TimerEvent: {}
+[1.582469] (-) TimerEvent: {}
+[1.685024] (-) TimerEvent: {}
+[1.788116] (-) TimerEvent: {}
+[1.890082] (-) TimerEvent: {}
+[1.991072] (-) TimerEvent: {}
+[2.093544] (-) TimerEvent: {}
+[2.194684] (-) TimerEvent: {}
+[2.298386] (-) TimerEvent: {}
+[2.401669] (-) TimerEvent: {}
+[2.504993] (-) TimerEvent: {}
+[2.607388] (-) TimerEvent: {}
+[2.710300] (-) TimerEvent: {}
+[2.810771] (-) TimerEvent: {}
+[2.911391] (-) TimerEvent: {}
+[3.013453] (-) TimerEvent: {}
+[3.115844] (-) TimerEvent: {}
+[3.217368] (-) TimerEvent: {}
+[3.318048] (-) TimerEvent: {}
+[3.420641] (-) TimerEvent: {}
+[3.521709] (-) TimerEvent: {}
+[3.623227] (-) TimerEvent: {}
+[3.724351] (-) TimerEvent: {}
+[3.826141] (-) TimerEvent: {}
+[3.927256] (-) TimerEvent: {}
+[4.029064] (-) TimerEvent: {}
+[4.131651] (-) TimerEvent: {}
+[4.232982] (-) TimerEvent: {}
+[4.314520] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.315150] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.315451] (point_cloud_processing) StderrLine: {'line': b'    9 |     pcl:\x1b[01;31m\x1b[KPointCloud\x1b[m\x1b[K<pcl::PointXYZ> cloud;\n'}
+[4.315781] (point_cloud_processing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.317195] (point_cloud_processing) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpcl::PointCloud\x1b[m\x1b[K\n'}
+[4.317606] (point_cloud_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.318013] (point_cloud_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:3\x1b[m\x1b[K:\n'}
+[4.318407] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:71:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.319089] (point_cloud_processing) StderrLine: {'line': b'   71 |   template <typename PointT> class \x1b[01;36m\x1b[KPointCloud\x1b[m\x1b[K;\n'}
+[4.319652] (point_cloud_processing) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.320208] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.320279] (point_cloud_processing) StderrLine: {'line': b'    9 |     pcl:PointCloud<pcl::PointXYZ\x1b[01;31m\x1b[K>\x1b[m\x1b[K cloud;\n'}
+[4.320339] (point_cloud_processing) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.320397] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.320456] (point_cloud_processing) StderrLine: {'line': b'    9 |     pcl:PointCloud<pcl::PointXYZ> \x1b[01;31m\x1b[Kcloud\x1b[m\x1b[K;\n'}
+[4.320512] (point_cloud_processing) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.320568] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chovy/workspace-udemy/pcl-exercise/src/point_cloud_processing/src/1_planner_cloud.cpp:9:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label\x07-Wunused-label\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.320637] (point_cloud_processing) StderrLine: {'line': b'    9 |     \x1b[01;35m\x1b[Kpcl\x1b[m\x1b[K:PointCloud<pcl::PointXYZ> cloud;\n'}
+[4.320693] (point_cloud_processing) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.334020] (-) TimerEvent: {}
+[4.436434] (-) TimerEvent: {}
+[4.537300] (-) TimerEvent: {}
+[4.638353] (-) TimerEvent: {}
+[4.739039] (-) TimerEvent: {}
+[4.839677] (-) TimerEvent: {}
+[4.884229] (point_cloud_processing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/plane_cloud.dir/build.make:76: CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o] Error 1\n'}
+[4.884404] (point_cloud_processing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plane_cloud.dir/all] Error 2\n'}
+[4.885262] (point_cloud_processing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.889111] (point_cloud_processing) CommandEnded: {'returncode': 2}
+[4.940463] (-) TimerEvent: {}
+[4.988524] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 2}
+[5.001038] (-) EventReactorShutdown: {}
