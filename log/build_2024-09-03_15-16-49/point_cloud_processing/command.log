@@ -1,2 +1,0 @@
-Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
-Invoked command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing' returned '2': /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4

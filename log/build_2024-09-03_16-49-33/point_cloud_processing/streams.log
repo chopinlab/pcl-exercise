@@ -1,5 +1,0 @@
-[0.025s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
-[0.101s] [35m[1mConsolidate compiler generated dependencies of target circular_cloud[0m
-[0.125s] [ 33%] Built target plane_cloud
-[0.125s] [ 66%] Built target pcd_import
-[0.143s] [100%] Built target circular_cloud

@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target circular_cloud[0m
-[ 33%] Built target pcd_import
-[ 83%] Built target plane_cloud
-[ 83%] [32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o[0m
-[100%] [32m[1mLinking CXX executable circular_cloud[0m
-[100%] Built target circular_cloud

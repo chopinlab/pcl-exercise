@@ -1,6 +1,0 @@
-[0.082s] Invoking command in '/home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chovy/workspace-udemy/pcl-exercise/build/point_cloud_processing -- -j4 -l4
-[0.437s] [ 33%] Built target pcd_import
-[0.518s] [ 50%] [32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o[0m
-[7.333s] [ 66%] [32m[1mLinking CXX executable circular_cloud[0m
-[8.292s] [ 66%] Built target circular_cloud
-[8.380s] [100%] Built target plane_cloud

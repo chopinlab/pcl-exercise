@@ -1,5 +1,0 @@
-[ 33%] Built target pcd_import
-[ 50%] [32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o[0m
-[ 66%] [32m[1mLinking CXX executable circular_cloud[0m
-[ 66%] Built target circular_cloud
-[100%] Built target plane_cloud
