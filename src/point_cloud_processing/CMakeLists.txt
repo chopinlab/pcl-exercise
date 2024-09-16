@@ -7,8 +7,9 @@ endif()
 
 
 find_package(ament_cmake REQUIRED)
-
 find_package(PCL REQUIRED)
+
+
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
@@ -28,5 +29,35 @@ install(TARGETS
   plane_cloud
   circular_cloud
   DESTINATION lib/${PROJECT_NAME})
+
+
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+# install(DIRECTORY
+#   launch
+#   rviz
+#   DESTINATION share/${PROJECT_NAME}/
+# )
+
+# /home/chovy/workspace-ros/pcl-exercise/src/point_cloud_processing/launch/rtab_mapping.launch.py
+# install(
+#   PROGRAMS
+#   launch/rtab_mapping.launch.py
+#   DESTINATION lib/${PROJECT_NAME}/
+# )
+
+
+# install(TARGETS
+#   pcd_import plane_cloud circular_cloud filtering_segmentation  path_creation kitti_voxel kd_tree traffic_segmentation
+#   DESTINATION lib/${PROJECT_NAME})
+
+# install(DIRECTORY
+#   launch
+#   rviz
+#   DESTINATION share/${PROJECT_NAME}/
+# )
 
 ament_package()
