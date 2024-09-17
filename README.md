@@ -12,7 +12,7 @@ https://github.com/introlab/rtabmap_ros/tree/humble-devel/rtabmap_demos/launch
 ## 설치
 ### ROS humble 설치
 ```bash
-locale  # check for UTF-8
+locale  # check for UTF-8   
 
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
@@ -67,6 +67,7 @@ sudo apt-get install ignition-fortress
 sudo apt install gazebo
 sudo apt install ros-humble-gazebo-ros
 sudo apt install ros-humble-gazebo-ros-pkgs
+sudo apt install ros-humble-turtlebot3-gazebo
 
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" > /etc/apt/sources.list.d/gazebo-stable.list'
 wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
@@ -157,3 +158,19 @@ rqt_robot_steering 같은 플러그인을 사용하여 로봇을 수동으로 �
 rqt_console 플러그인을 사용하여 ROS 로그 메시지를 실시간으로 모니터링하고, 발생하는 오류나 경고 메시지를 확인할 수 있습니다.
 **rqt_logger_level**을 통해 각 노드의 로그 레벨을 동적으로 변경할 수 있습니다.
 ```
+
+
+## 이슈
+### error
+- [ERROR] [spawn_entity.py-4]: process has died [pid 44643, exit code 1, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -entity chovy -file /home/chovy/workspace-ros/pcl-exercise/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/turtlebot3_chovy/model.sdf -x -2.0 -y -0.5 -z 0.01 --ros-args'].
+- 최초 로딩시 위와 같은 에러가 뜨지만, 기다리면 해결됨
+
+
+## 폴더 구조
+### 로봇
+- urdf 폴더에 정의
+- 상세 모양은 모델에서 정의
+
+### 월드
+- worlds 파일에 정의
+- 상세 지형은 모델에서 정의
