@@ -65,6 +65,8 @@ sudo apt-get install ignition-fortress
 
 
 sudo apt install gazebo
+sudo apt install ros-humble-gazebo-ros
+sudo apt install ros-humble-gazebo-ros-pkgs
 
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" > /etc/apt/sources.list.d/gazebo-stable.list'
 wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
@@ -120,6 +122,8 @@ colcon build
 - ros2 run point_cloud_processing pcd_import
 - ros2 run point_cloud_processing plane_cloud
 - ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+- ros2 launch point_cloud_processing rtab_mapping.launch.py
+- ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 - pcl_viewer src/point_cloud_processing/point_clouds/plane_.pcd
 - pcl_viewer -multiview 2 plane.pcd plane_.pcd
